@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36414.22 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "delete", "delete", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.Kazhahmetov.Sprint2.Task0", "Tyuiu.Kazhahmetov.Sprint2.Task0\Tyuiu.Kazhahmetov.Sprint2.Task0.csproj", "{D1892C9D-2332-4F1F-8B1E-E3ED855F2D9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.Kazhahmetov.Sprint2.Task0.V25", "Tyuiu.Kazhahmetov.Sprint2.Task0\Tyuiu.Kazhahmetov.Sprint2.Task0.V25.csproj", "{D1892C9D-2332-4F1F-8B1E-E3ED855F2D9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.Kazhahmetov.Sprint2.Task0.Lib", "Tyuiu.Kazhahmetov.Sprint2.Task0.Lib\Tyuiu.Kazhahmetov.Sprint2.Task0.Lib.csproj", "{B4EF9448-93A0-4755-BAE5-9B01B6C2D563}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.Kazhahmetov.Sprint2.Task0.V25.Lib", "Tyuiu.Kazhahmetov.Sprint2.Task0.Lib\Tyuiu.Kazhahmetov.Sprint2.Task0.V25.Lib.csproj", "{B4EF9448-93A0-4755-BAE5-9B01B6C2D563}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.Kazhahmetov.Sprint2.Task0.Test", "Tyuiu.Kazhahmetov.Sprint2.Task0.Test\Tyuiu.Kazhahmetov.Sprint2.Task0.Test.csproj", "{A6FF24BD-AAE4-47BC-A43F-CF2699F5CABA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.Kazhahmetov.Sprint2.Task0.V25.Test", "Tyuiu.Kazhahmetov.Sprint2.Task0.Test\Tyuiu.Kazhahmetov.Sprint2.Task0.V25.Test.csproj", "{A6FF24BD-AAE4-47BC-A43F-CF2699F5CABA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{96DE4817-06C5-47EC-A87F-2E83624C5379}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,9 +36,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{D1892C9D-2332-4F1F-8B1E-E3ED855F2D9F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{B4EF9448-93A0-4755-BAE5-9B01B6C2D563} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{A6FF24BD-AAE4-47BC-A43F-CF2699F5CABA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D1892C9D-2332-4F1F-8B1E-E3ED855F2D9F} = {96DE4817-06C5-47EC-A87F-2E83624C5379}
+		{B4EF9448-93A0-4755-BAE5-9B01B6C2D563} = {96DE4817-06C5-47EC-A87F-2E83624C5379}
+		{A6FF24BD-AAE4-47BC-A43F-CF2699F5CABA} = {96DE4817-06C5-47EC-A87F-2E83624C5379}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B6A3307-BF74-477F-B06F-9AD629566710}
