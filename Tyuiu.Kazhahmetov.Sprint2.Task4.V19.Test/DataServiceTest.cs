@@ -8,10 +8,10 @@ namespace Tyuiu.Kazhahmetov.Sprint2.Task4.V19.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double x = 1;
-            double y = 6;
+            double x = 10;
+            double y = 5;
             double res = ds.Calculate(x, y);
-            double wait = 10;
+            double wait = 2.936;
             Assert.AreEqual(wait, res);
         }
 
