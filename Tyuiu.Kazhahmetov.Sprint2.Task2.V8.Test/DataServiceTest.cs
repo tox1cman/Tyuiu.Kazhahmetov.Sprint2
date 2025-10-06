@@ -1,0 +1,13 @@
+﻿using Tyuiu.Kazhahmetov.Sprint2.Task2.V8.Lib;
+namespace Tyuiu.Kazhahmetov.Sprint2.Task2.V8.Test
+{
+    [TestClass]
+    public sealed class DataServiceTest
+    {
+        [TestMethod]
+        public void TestMethod1()
+        {
+
+        }
+    }
+}
