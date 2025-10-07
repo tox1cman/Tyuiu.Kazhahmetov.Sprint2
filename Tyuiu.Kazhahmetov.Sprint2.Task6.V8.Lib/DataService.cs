@@ -3,7 +3,7 @@ namespace Tyuiu.Kazhahmetov.Sprint2.Task6.V8.Lib
 {
     public class DataService : ISprint2Task6V8
     {
-        public string FindDateOfPreviousDay(int m, int n)
+        public string FindDateOfPreviousDay(int n, int m)
         {
             string res = $"{n}, {m}";
             if ((m == 2) || (m == 4) || (m == 6) || (m == 8) || (m == 9) || (m == 11))

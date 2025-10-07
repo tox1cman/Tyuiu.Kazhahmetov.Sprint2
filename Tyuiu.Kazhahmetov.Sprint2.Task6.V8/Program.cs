@@ -15,10 +15,10 @@ Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                             
 Console.WriteLine("***************************************************************************");
 
 Console.WriteLine("Дата:");
-int n = Convert.ToInt32(Console.ReadLine());
+int m = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Месяц:");
-int m = Convert.ToInt32(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
