@@ -24,7 +24,7 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
 Console.WriteLine("***************************************************************************");
 
-string res = ds.FindDateOfPreviousDay(m,n);
+string res = ds.FindDateOfPreviousDay(n,m);
 
 Console.WriteLine(res);
 
