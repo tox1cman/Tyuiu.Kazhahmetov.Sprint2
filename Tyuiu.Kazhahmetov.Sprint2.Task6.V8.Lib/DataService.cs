@@ -51,19 +51,19 @@ namespace Tyuiu.Kazhahmetov.Sprint2.Task6.V8.Lib
 
             if ((m >= 1) && (m <= 9) && (n >= 1) && (n <= 9))
             {
-                return $"0{n}.0{m}";
+                return $"0{m}.0{n}";
             }
             else if ((m >= 1) && (m <= 9))
             {
-                return $"{n}.0{m}";
+                return $"0{m}.{n}";
             }
             else if ((n >= 1) && (n <= 9))
             {
-                return $"0{n}.{m}";
+                return $"{m}.0{n}";
             }
             else
             {
-                return $"{n}.{m}";
+                return $"{m}.{n}";
             }
         }
     }
